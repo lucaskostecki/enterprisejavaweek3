@@ -1,0 +1,16 @@
+<taglib xmlns="http://java.sun.com/JSP/Page">
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Hello World Tag</short-name>
+    <uri>https://api.lucaskstudios.com/java/tags</uri>
+    <tag>
+        <name>helloWorld</name>
+        <tag-class>com.lucaskstudios.customtags2.HelloWorldTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>helloDate</name>
+        <tag-class>com.lucaskstudios.customtags2.HelloDateTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+</taglib>
